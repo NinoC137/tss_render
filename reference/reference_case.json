@@ -1,0 +1,40 @@
+{
+  "group": "dy_exp_240-120",
+  "label": "fixed180_step1",
+  "name": "200-120-dy-keep180-power_000.tss",
+  "source": "/Volumes/1TBWDBlue/DCAC/dspace/Tek-scope/clean-channel-resaved-rerun-20261012/tss/200-120-dy-keep180-power_000.tss",
+  "source_sha256": "60d272a3e6fb20a775496b477d8d9ddec671232f82cf0c2df363deaebf9a65ff",
+  "source_bytes": 14166880,
+  "scope_source": "C:/zys/clean-channel/rendered-20261012-rerun/200-120-dy-keep180-power_000.tss",
+  "pi_source": "/root/tek_jobs/20261012/resaved-rerun/tss/200-120-dy-keep180-power_000.tss",
+  "center_from_record_start_s": 2.5006864442189283,
+  "position_percent": 25.006864442189283,
+  "win_scale_s_per_div": 0.005,
+  "window_start_s": 2.4756864442189284,
+  "window_end_s": 2.525686444218928,
+  "ch7_peaks": 3,
+  "ch7_valleys": 2,
+  "event_from_record_start_s": 2.5,
+  "filename": "dy_exp_240-120/fixed180_step1__200-120-dy-keep180-power_000__5ms.png",
+  "new_positions_div": {
+    "1": 1.96,
+    "2": 0.96,
+    "5": -1.54,
+    "6": -2.5
+  },
+  "new_scales_A_per_div": {
+    "1": 2.0,
+    "2": 2.0
+  },
+  "hvdc_channel": "CH1",
+  "hvdc_previous_position_div": 3.96,
+  "hvdc_source_unit": "A",
+  "revision": "LVDC CH2 2 A/div and position minus 2 div; CH5/CH6 down 2.5 div; hide CH3/CH4 to preserve space; retain CH7/CH8",
+  "previous_layout_directory": "/Volumes/1TBWDBlue/\u6587\u7a3f/Paper_power-ripple-cor/scope_screenshots_5ms_20261023",
+  "display_states": {
+    "3": 0,
+    "4": 0
+  },
+  "lvdc_channel": "CH2",
+  "lvdc_previous_position_div": 2.96
+}

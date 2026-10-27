@@ -1,0 +1,58 @@
+{
+  "scope_comparison": {
+    "CH1": {
+      "matched_image_columns": 775,
+      "median_absolute_trace_center_difference_native_pixels": 1.0493697478991635,
+      "p95_absolute_trace_center_difference_native_pixels": 3.2238376636531223
+    },
+    "CH2": {
+      "matched_image_columns": 775,
+      "median_absolute_trace_center_difference_native_pixels": 0.7322694864398329,
+      "p95_absolute_trace_center_difference_native_pixels": 2.4605804204574855
+    },
+    "CH5": {
+      "matched_image_columns": 744,
+      "median_absolute_trace_center_difference_native_pixels": 0.26284021071114694,
+      "p95_absolute_trace_center_difference_native_pixels": 0.6008403361344676
+    },
+    "CH6": {
+      "matched_image_columns": 775,
+      "median_absolute_trace_center_difference_native_pixels": 0.4090608688940165,
+      "p95_absolute_trace_center_difference_native_pixels": 1.0238856621868135
+    },
+    "CH7": {
+      "matched_image_columns": 726,
+      "median_absolute_trace_center_difference_native_pixels": 0.7588857586662527,
+      "p95_absolute_trace_center_difference_native_pixels": 1.5079752337215098
+    },
+    "CH8": {
+      "matched_image_columns": 774,
+      "median_absolute_trace_center_difference_native_pixels": 0.810122384200497,
+      "p95_absolute_trace_center_difference_native_pixels": 1.6590508591496413
+    }
+  },
+  "controls": {
+    "position_plus_1div_native_pixels": -47.5,
+    "expected_position_pixels": -47.6,
+    "offset_plus_1000W_native_pixels": 24.0,
+    "expected_offset_pixels": 23.8,
+    "halved_scale_doubled_displacement_median_error_pixels": 0.8039999999999736,
+    "nonpositive_scale_rejected": true
+  },
+  "native_grid_crop": {
+    "eight_channels_loaded": 8,
+    "native_divisions": [
+      10,
+      10
+    ],
+    "cropped_divisions": [
+      8,
+      5
+    ],
+    "full_and_crop_major_tick_counts_verified": true,
+    "physical_mm_per_div_preserved": true,
+    "probe_gain_10_scale_20_verified": true,
+    "SVG_raster_images": 0
+  },
+  "metric_scope": "color-mask trace centerlines; new exact pane affinely registered to old screenshot x=3..874, y_center=236, dy=47.5; excludes badges; appearance check, not signal error or pixel identity"
+}

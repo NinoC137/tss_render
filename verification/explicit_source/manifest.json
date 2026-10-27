@@ -1,0 +1,109 @@
+{
+  "source_tss": "/Volumes/1TBWDBlue/DCAC/dspace/Tek-scope/clean-channel-resaved-rerun-20261012/tss/200-120-dy-keep180-power_000.tss",
+  "source_sha256": "60d272a3e6fb20a775496b477d8d9ddec671232f82cf0c2df363deaebf9a65ff",
+  "source_unchanged": true,
+  "windows": [
+    {
+      "center_from_record_start_s": 2.5006864442189283,
+      "time_per_div_s": 0.005,
+      "window_start_s": 2.4756864442189284,
+      "window_end_s": 2.525686444218928,
+      "channels": {
+        "1": {
+          "scale": 2.0,
+          "position": 1.96,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 8.881784197001252e-16
+        },
+        "2": {
+          "scale": 2.0,
+          "position": 0.96,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 8.881784197001252e-16
+        },
+        "5": {
+          "scale": 2000.0,
+          "position": -1.54,
+          "offset": 0.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 1.5916157281026244e-12
+        },
+        "6": {
+          "scale": 2000.0,
+          "position": -2.5,
+          "offset": 0.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 2.2168933355715126e-12
+        },
+        "7": {
+          "scale": 100.0,
+          "position": -4.0,
+          "offset": 0.0,
+          "units": "V",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 1.1723955140041653e-13
+        },
+        "8": {
+          "scale": 2.0,
+          "position": -4.0,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 1.7763568394002505e-15
+        }
+      },
+      "time_reference": "sample 0 is record start; trigger time = record time + WFM t0",
+      "mapping": "display_div = (measured_value - channel_OFFSET)/display_SCALE + display_POSITION",
+      "processing": "all stored samples in window, connected linearly; no filtering, fitting or sample dropping"
+    }
+  ],
+  "renderer_sha256": "ce53850e4a5435700cd8331c02309f10ca7253400866fa7c27a2dafa2993314e",
+  "outputs": {
+    "display_config.json": "b5c13f59a7a91c90870801727a237502ebdc144e31af6c5a3b35ca21829bab1f",
+    "matched.json": "5a040c3c47d26f89652227b1ed169a706b5e6b45237807a3352b066686c9cacb",
+    "matched.png": "380c08054490d54ea41f0cf8257a8ca9e18f0efff9c731343f500b1be0a9377b",
+    "matched.svg": "d5da5217b241f1c75f408afe3de5d8d3d427ba648a7ea16186fc8eeb2c929a3b"
+  }
+}

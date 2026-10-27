@@ -1,0 +1,32 @@
+{
+  "1": {
+    "scale": 1.0,
+    "position": 1.96,
+    "offset": 3.0
+  },
+  "2": {
+    "scale": 0.5,
+    "position": 0.96,
+    "offset": 0.0
+  },
+  "5": {
+    "scale": 2000.0,
+    "position": -1.54,
+    "offset": 0.0
+  },
+  "6": {
+    "scale": 2000.0,
+    "position": -2.5,
+    "offset": 0.0
+  },
+  "7": {
+    "scale": 100.0,
+    "position": -4.0,
+    "offset": 0.0
+  },
+  "8": {
+    "scale": 2.0,
+    "position": -4.0,
+    "offset": 0.0
+  }
+}

@@ -1,0 +1,662 @@
+{
+  "source_tss": "/Volumes/1TBWDBlue/DCAC/dspace/Tek-scope/clean-channel-resaved-rerun-20261012/tss/200-120-dy-keep180-power_000.tss",
+  "source_sha256": "60d272a3e6fb20a775496b477d8d9ddec671232f82cf0c2df363deaebf9a65ff",
+  "original_scope_export": "/Volumes/1TBWDBlue/DCAC/dspace/scope_waveform_renderer/reference/original_scope.png",
+  "original_scope_export_sha256": "9d972eece65c647c6f9b6a2f19cdeec180187960adda40fbaf2b630787f8c995",
+  "display_plan": "/Volumes/1TBWDBlue/DCAC/dspace/scope_waveform_renderer/reference/export_plan.json",
+  "display_plan_sha256": "346f1d6454ce4d1ddd56cf2ee47d9de82c6f64403e05a8deea770ca565c5f8cd",
+  "reference_crop_xyxy": [
+    0,
+    520,
+    876,
+    996
+  ],
+  "source_unchanged": true,
+  "reference_is": "previous genuine hardware PNG of this same TSS, with display settings overridden in the export plan",
+  "rendered_from": "WFM samples + source setup + documented display overrides; no screenshot pixels used in redraw",
+  "windows": [
+    {
+      "center_from_record_start_s": 2.5006864442189283,
+      "time_per_div_s": 0.005,
+      "window_start_s": 2.4756864442189284,
+      "window_end_s": 2.525686444218928,
+      "channels": {
+        "1": {
+          "scale": 2.0,
+          "position": 1.96,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 0.0
+        },
+        "2": {
+          "scale": 2.0,
+          "position": 0.96,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 0.0
+        },
+        "5": {
+          "scale": 2000.0,
+          "position": -1.54,
+          "offset": 0.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 3.410605131648481e-13
+        },
+        "6": {
+          "scale": 2000.0,
+          "position": -2.5,
+          "offset": 0.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 4.547473508864641e-13
+        },
+        "7": {
+          "scale": 100.0,
+          "position": -4.0,
+          "offset": 0.0,
+          "units": "V",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 5.684341886080802e-14
+        },
+        "8": {
+          "scale": 2.0,
+          "position": -4.0,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 0.0
+        }
+      },
+      "native_grid_divisions": [
+        10,
+        10
+      ],
+      "crop_x_div": [
+        0.0,
+        10.0
+      ],
+      "crop_y_div": [
+        -5.0,
+        5.0
+      ],
+      "visible_grid_divisions": [
+        10.0,
+        10.0
+      ],
+      "visible_window_start_s": 2.4756864442189284,
+      "visible_window_end_s": 2.525686444218928,
+      "badge_font": "DejaVu Sans Mono",
+      "badge_styles": {
+        "1": {
+          "edge": "#ff0000",
+          "face": "#ffe1de",
+          "text": "#e10000"
+        },
+        "2": {
+          "edge": "#0000ff",
+          "face": "#0000ff",
+          "text": "#ffffff"
+        },
+        "3": {
+          "edge": "#4c9ec9",
+          "face": "#edf5f9",
+          "text": "#151515"
+        },
+        "4": {
+          "edge": "#8f58a0",
+          "face": "#f3edf6",
+          "text": "#151515"
+        },
+        "5": {
+          "edge": "#4c9ec9",
+          "face": "#edf5f9",
+          "text": "#151515"
+        },
+        "6": {
+          "edge": "#dd3496",
+          "face": "#fcebf5",
+          "text": "#151515"
+        },
+        "7": {
+          "edge": "#849b35",
+          "face": "#f3f5e9",
+          "text": "#151515"
+        },
+        "8": {
+          "edge": "#8f58a0",
+          "face": "#f3edf6",
+          "text": "#151515"
+        }
+      },
+      "time_reference": "sample 0 is record start; trigger time = record time + WFM t0",
+      "mapping": "display_div = (measured_value * gain - channel_OFFSET)/display_SCALE + display_POSITION; gain defaults to 1",
+      "processing": "all stored samples in the full native window; crop changes only the viewport; no filtering, fitting or sample dropping"
+    },
+    {
+      "center_from_record_start_s": 2.5156864442189284,
+      "time_per_div_s": 0.005,
+      "window_start_s": 2.4906864442189285,
+      "window_end_s": 2.5406864442189283,
+      "channels": {
+        "1": {
+          "scale": 2.0,
+          "position": 1.96,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311335,
+          "last_sample_index": 317586,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 0.0
+        },
+        "2": {
+          "scale": 2.0,
+          "position": 0.96,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311335,
+          "last_sample_index": 317586,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 0.0
+        },
+        "5": {
+          "scale": 2000.0,
+          "position": -1.54,
+          "offset": 0.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311335,
+          "last_sample_index": 317586,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 3.410605131648481e-13
+        },
+        "6": {
+          "scale": 2000.0,
+          "position": -2.5,
+          "offset": 0.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311335,
+          "last_sample_index": 317586,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 4.547473508864641e-13
+        },
+        "7": {
+          "scale": 100.0,
+          "position": -4.0,
+          "offset": 0.0,
+          "units": "V",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311335,
+          "last_sample_index": 317586,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 5.684341886080802e-14
+        },
+        "8": {
+          "scale": 2.0,
+          "position": -4.0,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311335,
+          "last_sample_index": 317586,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 0.0
+        }
+      },
+      "native_grid_divisions": [
+        10,
+        10
+      ],
+      "crop_x_div": [
+        0.0,
+        10.0
+      ],
+      "crop_y_div": [
+        -5.0,
+        5.0
+      ],
+      "visible_grid_divisions": [
+        10.0,
+        10.0
+      ],
+      "visible_window_start_s": 2.4906864442189285,
+      "visible_window_end_s": 2.5406864442189283,
+      "badge_font": "DejaVu Sans Mono",
+      "badge_styles": {
+        "1": {
+          "edge": "#ff0000",
+          "face": "#ffe1de",
+          "text": "#e10000"
+        },
+        "2": {
+          "edge": "#0000ff",
+          "face": "#0000ff",
+          "text": "#ffffff"
+        },
+        "3": {
+          "edge": "#4c9ec9",
+          "face": "#edf5f9",
+          "text": "#151515"
+        },
+        "4": {
+          "edge": "#8f58a0",
+          "face": "#f3edf6",
+          "text": "#151515"
+        },
+        "5": {
+          "edge": "#4c9ec9",
+          "face": "#edf5f9",
+          "text": "#151515"
+        },
+        "6": {
+          "edge": "#dd3496",
+          "face": "#fcebf5",
+          "text": "#151515"
+        },
+        "7": {
+          "edge": "#849b35",
+          "face": "#f3f5e9",
+          "text": "#151515"
+        },
+        "8": {
+          "edge": "#8f58a0",
+          "face": "#f3edf6",
+          "text": "#151515"
+        }
+      },
+      "time_reference": "sample 0 is record start; trigger time = record time + WFM t0",
+      "mapping": "display_div = (measured_value * gain - channel_OFFSET)/display_SCALE + display_POSITION; gain defaults to 1",
+      "processing": "all stored samples in the full native window; crop changes only the viewport; no filtering, fitting or sample dropping"
+    },
+    {
+      "center_from_record_start_s": 2.499,
+      "time_per_div_s": 0.001,
+      "window_start_s": 2.494,
+      "window_end_s": 2.504,
+      "channels": {
+        "1": {
+          "scale": 2.0,
+          "position": 1.96,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311750,
+          "last_sample_index": 313000,
+          "samples_drawn": 1251,
+          "display_roundtrip_max_error_physical_units": 0.0
+        },
+        "2": {
+          "scale": 2.0,
+          "position": 0.96,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311750,
+          "last_sample_index": 313000,
+          "samples_drawn": 1251,
+          "display_roundtrip_max_error_physical_units": 0.0
+        },
+        "5": {
+          "scale": 2000.0,
+          "position": -1.54,
+          "offset": 0.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311750,
+          "last_sample_index": 313000,
+          "samples_drawn": 1251,
+          "display_roundtrip_max_error_physical_units": 3.410605131648481e-13
+        },
+        "6": {
+          "scale": 2000.0,
+          "position": -2.5,
+          "offset": 0.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311750,
+          "last_sample_index": 313000,
+          "samples_drawn": 1251,
+          "display_roundtrip_max_error_physical_units": 4.547473508864641e-13
+        },
+        "7": {
+          "scale": 100.0,
+          "position": -4.0,
+          "offset": 0.0,
+          "units": "V",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311750,
+          "last_sample_index": 313000,
+          "samples_drawn": 1251,
+          "display_roundtrip_max_error_physical_units": 4.263256414560601e-14
+        },
+        "8": {
+          "scale": 2.0,
+          "position": -4.0,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311750,
+          "last_sample_index": 313000,
+          "samples_drawn": 1251,
+          "display_roundtrip_max_error_physical_units": 0.0
+        }
+      },
+      "native_grid_divisions": [
+        10,
+        10
+      ],
+      "crop_x_div": [
+        0.0,
+        10.0
+      ],
+      "crop_y_div": [
+        -5.0,
+        5.0
+      ],
+      "visible_grid_divisions": [
+        10.0,
+        10.0
+      ],
+      "visible_window_start_s": 2.494,
+      "visible_window_end_s": 2.504,
+      "badge_font": "DejaVu Sans Mono",
+      "badge_styles": {
+        "1": {
+          "edge": "#ff0000",
+          "face": "#ffe1de",
+          "text": "#e10000"
+        },
+        "2": {
+          "edge": "#0000ff",
+          "face": "#0000ff",
+          "text": "#ffffff"
+        },
+        "3": {
+          "edge": "#4c9ec9",
+          "face": "#edf5f9",
+          "text": "#151515"
+        },
+        "4": {
+          "edge": "#8f58a0",
+          "face": "#f3edf6",
+          "text": "#151515"
+        },
+        "5": {
+          "edge": "#4c9ec9",
+          "face": "#edf5f9",
+          "text": "#151515"
+        },
+        "6": {
+          "edge": "#dd3496",
+          "face": "#fcebf5",
+          "text": "#151515"
+        },
+        "7": {
+          "edge": "#849b35",
+          "face": "#f3f5e9",
+          "text": "#151515"
+        },
+        "8": {
+          "edge": "#8f58a0",
+          "face": "#f3edf6",
+          "text": "#151515"
+        }
+      },
+      "time_reference": "sample 0 is record start; trigger time = record time + WFM t0",
+      "mapping": "display_div = (measured_value * gain - channel_OFFSET)/display_SCALE + display_POSITION; gain defaults to 1",
+      "processing": "all stored samples in the full native window; crop changes only the viewport; no filtering, fitting or sample dropping"
+    },
+    {
+      "center_from_record_start_s": 2.49,
+      "time_per_div_s": 2e-05,
+      "window_start_s": 2.4899,
+      "window_end_s": 2.4901000000000004,
+      "channels": {
+        "1": {
+          "scale": 2.0,
+          "position": 1.96,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311237,
+          "last_sample_index": 311263,
+          "samples_drawn": 27,
+          "display_roundtrip_max_error_physical_units": 0.0
+        },
+        "2": {
+          "scale": 2.0,
+          "position": 0.96,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311237,
+          "last_sample_index": 311263,
+          "samples_drawn": 27,
+          "display_roundtrip_max_error_physical_units": 0.0
+        },
+        "5": {
+          "scale": 2000.0,
+          "position": -1.54,
+          "offset": 0.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311237,
+          "last_sample_index": 311263,
+          "samples_drawn": 27,
+          "display_roundtrip_max_error_physical_units": 0.0
+        },
+        "6": {
+          "scale": 2000.0,
+          "position": -2.5,
+          "offset": 0.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311237,
+          "last_sample_index": 311263,
+          "samples_drawn": 27,
+          "display_roundtrip_max_error_physical_units": 4.547473508864641e-13
+        },
+        "7": {
+          "scale": 100.0,
+          "position": -4.0,
+          "offset": 0.0,
+          "units": "V",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311237,
+          "last_sample_index": 311263,
+          "samples_drawn": 27,
+          "display_roundtrip_max_error_physical_units": 5.684341886080802e-14
+        },
+        "8": {
+          "scale": 2.0,
+          "position": -4.0,
+          "offset": 0.0,
+          "units": "A",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 311237,
+          "last_sample_index": 311263,
+          "samples_drawn": 27,
+          "display_roundtrip_max_error_physical_units": 0.0
+        }
+      },
+      "native_grid_divisions": [
+        10,
+        10
+      ],
+      "crop_x_div": [
+        0.0,
+        10.0
+      ],
+      "crop_y_div": [
+        -5.0,
+        5.0
+      ],
+      "visible_grid_divisions": [
+        10.0,
+        10.0
+      ],
+      "visible_window_start_s": 2.4899,
+      "visible_window_end_s": 2.4901,
+      "badge_font": "DejaVu Sans Mono",
+      "badge_styles": {
+        "1": {
+          "edge": "#ff0000",
+          "face": "#ffe1de",
+          "text": "#e10000"
+        },
+        "2": {
+          "edge": "#0000ff",
+          "face": "#0000ff",
+          "text": "#ffffff"
+        },
+        "3": {
+          "edge": "#4c9ec9",
+          "face": "#edf5f9",
+          "text": "#151515"
+        },
+        "4": {
+          "edge": "#8f58a0",
+          "face": "#f3edf6",
+          "text": "#151515"
+        },
+        "5": {
+          "edge": "#4c9ec9",
+          "face": "#edf5f9",
+          "text": "#151515"
+        },
+        "6": {
+          "edge": "#dd3496",
+          "face": "#fcebf5",
+          "text": "#151515"
+        },
+        "7": {
+          "edge": "#849b35",
+          "face": "#f3f5e9",
+          "text": "#151515"
+        },
+        "8": {
+          "edge": "#8f58a0",
+          "face": "#f3edf6",
+          "text": "#151515"
+        }
+      },
+      "time_reference": "sample 0 is record start; trigger time = record time + WFM t0",
+      "mapping": "display_div = (measured_value * gain - channel_OFFSET)/display_SCALE + display_POSITION; gain defaults to 1",
+      "processing": "all stored samples in the full native window; crop changes only the viewport; no filtering, fitting or sample dropping"
+    }
+  ],
+  "renderer_sha256": "7664e3a9502af6f7c62737444751659d04946c443ed215e7e07829c9ba3673b7",
+  "outputs": {
+    "comparison.png": "548d6e31cdfba5d5dc2eae1aabe23d619786e1c9b9d6dc86c6b69f43562de699",
+    "display_config.json": "b5c13f59a7a91c90870801727a237502ebdc144e31af6c5a3b35ca21829bab1f",
+    "original_crop.png": "713c8a376943f381334697d3fe1f01e9e575725703cfc73ffdd597123b2e0b30",
+    "redraw_5ms.json": "547d133be5b80de957c05123eaeccafd074abe66672007f435ddfc2bcfc8f777",
+    "redraw_5ms.png": "ace55a4a52f1c0a932383efa711ef08cf2d6b97acfe9c03fe73fad56406e13a2",
+    "redraw_5ms.svg": "0518d37acb06cd0bbcfade18bd588f7a77ebdab25ee1adcbfb53b70febce8f9a",
+    "samples_20us.json": "4a0c0f45395c766d7852d3dfea98ce3a770d5988a0fd8c6e980ed3087f7ea87c",
+    "samples_20us.png": "9fab648a9d0f602a57a2ef713f6d8319084ea09f369a4b1a8b009ffac686024c",
+    "samples_20us.svg": "ba854def35a664a41f3de0b0e4107807be26abe69be285f65f7ae7b0eb99a093",
+    "shifted_5ms.json": "dd6381c40e23a380c7031bf5cd76dc12488f0903cb85e3773bbd9ce84458e225",
+    "shifted_5ms.png": "fee7e57fed46c4791aee08ad5e04aa41cf24e64597b27515140d200edd63bc6c",
+    "shifted_5ms.svg": "0132b0f9fb466a458f9dd3c5a2e0caa235225aad83c8dc98bb10528d85ddea32",
+    "window_examples.png": "009faafac5dc37418ea0f0b4c2ea8a8d3af1494b09d2d2f91b8aeabe405e2030",
+    "zoom_1ms.json": "83c3151d87ecb3173d53edef54396a93ffe9aaca5f1c8e319b2b8501667646b0",
+    "zoom_1ms.png": "a4eb8de20d3a817142a0c3ad12df5d7cfa152f855548a8cdd1181eb87b674a29",
+    "zoom_1ms.svg": "2e71fde220f0b61ed799053f9b5f0ff1158ed89933ff5b966d12b9e946a4229a"
+  }
+}

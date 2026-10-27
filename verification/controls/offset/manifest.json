@@ -1,0 +1,100 @@
+{
+  "source_tss": "/Volumes/1TBWDBlue/DCAC/dspace/Tek-scope/clean-channel-resaved-rerun-20261012/tss/200-120-dy-keep180-power_000.tss",
+  "source_sha256": "60d272a3e6fb20a775496b477d8d9ddec671232f82cf0c2df363deaebf9a65ff",
+  "source_unchanged": true,
+  "windows": [
+    {
+      "center_from_record_start_s": 2.5006864442189283,
+      "time_per_div_s": 0.005,
+      "window_start_s": 2.4756864442189284,
+      "window_end_s": 2.525686444218928,
+      "channels": {
+        "5": {
+          "scale": 2000.0,
+          "position": -1.54,
+          "offset": 1000.0,
+          "units": "W",
+          "dt_s": 8e-06,
+          "sample_rate_Hz": 125000.0,
+          "record_points": 1250000,
+          "record_start_relative_to_trigger_s": -9.999991999999999,
+          "first_sample_index": 309460,
+          "last_sample_index": 315711,
+          "samples_drawn": 6252,
+          "display_roundtrip_max_error_physical_units": 2.2737367544323206e-13
+        }
+      },
+      "native_grid_divisions": [
+        10,
+        10
+      ],
+      "crop_x_div": [
+        0.0,
+        10.0
+      ],
+      "crop_y_div": [
+        -5.0,
+        5.0
+      ],
+      "visible_grid_divisions": [
+        10.0,
+        10.0
+      ],
+      "visible_window_start_s": 2.4756864442189284,
+      "visible_window_end_s": 2.525686444218928,
+      "badge_font": "DejaVu Sans Mono",
+      "badge_styles": {
+        "1": {
+          "edge": "#ff0000",
+          "face": "#ffe1de",
+          "text": "#e10000"
+        },
+        "2": {
+          "edge": "#0000ff",
+          "face": "#0000ff",
+          "text": "#ffffff"
+        },
+        "3": {
+          "edge": "#4c9ec9",
+          "face": "#edf5f9",
+          "text": "#151515"
+        },
+        "4": {
+          "edge": "#8f58a0",
+          "face": "#f3edf6",
+          "text": "#151515"
+        },
+        "5": {
+          "edge": "#4c9ec9",
+          "face": "#edf5f9",
+          "text": "#151515"
+        },
+        "6": {
+          "edge": "#dd3496",
+          "face": "#fcebf5",
+          "text": "#151515"
+        },
+        "7": {
+          "edge": "#849b35",
+          "face": "#f3f5e9",
+          "text": "#151515"
+        },
+        "8": {
+          "edge": "#8f58a0",
+          "face": "#f3edf6",
+          "text": "#151515"
+        }
+      },
+      "time_reference": "sample 0 is record start; trigger time = record time + WFM t0",
+      "mapping": "display_div = (measured_value * gain - channel_OFFSET)/display_SCALE + display_POSITION; gain defaults to 1",
+      "processing": "all stored samples in the full native window; crop changes only the viewport; no filtering, fitting or sample dropping"
+    }
+  ],
+  "renderer_sha256": "7664e3a9502af6f7c62737444751659d04946c443ed215e7e07829c9ba3673b7",
+  "outputs": {
+    "display_config.json": "91ff7e6b5acfd5a36bd68bd3b33793d077d40b02f4dcb1d274be7a72a783fde2",
+    "offset.json": "a3a487f3d9a8ee47bb9e6b1ce4c586ea53109c2f76a47f9b3574fb559fe5fb70",
+    "offset.png": "0d6aca4bdcb5937c21709af22139a145952cf8b8eeda958b26e2a94bcc75b520",
+    "offset.svg": "68197a593aab4dd28ca738615eb9dc92fe72e6e9604c298cb460b059a60adb7c"
+  }
+}
